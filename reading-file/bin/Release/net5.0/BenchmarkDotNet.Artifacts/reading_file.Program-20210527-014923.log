@@ -1,0 +1,7 @@
+// Validating benchmarks:
+// ***** BenchmarkRunner: Start   *****
+// ***** Found 2 benchmark(s) in total *****
+// ***** Building 1 exe(s) in Parallel: Start   *****
+// start dotnet restore  /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in C:\Users\sumba\source\repos\reading-file\reading-file\bin\Release\net5.0\de317ef3-ee3a-437f-b623-5fa4e9435fd9
+// command took 2.35s and exited with 0
+// start dotnet build -c Release  --no-restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in C:\Users\sumba\source\repos\reading-file\reading-file\bin\Release\net5.0\de317ef3-ee3a-437f-b623-5fa4e9435fd9
